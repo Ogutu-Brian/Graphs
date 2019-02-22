@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1550754573 source:c:\users\briank'ogutu\desktop\graphs\edge.cpp
+	"Edge.h"
+
+1550754417 c:\users\briank'ogutu\desktop\graphs\edge.h
+
+1550833320 source:c:\users\briank'ogutu\desktop\graphs\graphdriver.cpp
+	<fstream>
+	<iostream>
+	<sstream>
+	<cstring>
+	"Graph.h"
+	"Graph.cpp"
+	"KeyObject.h"
+	<CSC1310\src\String.cpp>
+
+1550825421 c:\users\briank'ogutu\desktop\graphs\graph.h
+	<vector>
+	"CSC1310\include\ListLinked.h"
+	"KeyObject.h"
+	"Edge.h"
+	"Edge.cpp"
+	<iostream>
+
+1518719500 c:\users\briank'ogutu\desktop\graphs\csc1310\include\listlinked.h
+	"ListLinkedIterator.h"
+	"NextNode.h"
+
+1518719504 c:\users\briank'ogutu\desktop\graphs\csc1310\include\listlinkediterator.h
+	"NextNode.h"
+
+1518719514 c:\users\briank'ogutu\desktop\graphs\csc1310\include\nextnode.h
+
+1550755737 c:\users\briank'ogutu\desktop\graphs\keyobject.h
+	"CSC1310\include\String_.h"
+
+1550843728 c:\users\briank'ogutu\desktop\graphs\csc1310\include\string_.h
+	<string>
+
+1550754573 c:\users\briank'ogutu\desktop\graphs\edge.cpp
+	"Edge.h"
+
+1550839645 c:\users\briank'ogutu\desktop\graphs\graph.cpp
+	"Graph.h"
+
+1550839645 source:c:\users\briank'ogutu\desktop\graphs\graph.cpp
+	"Graph.h"
+
