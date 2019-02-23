@@ -9,10 +9,10 @@ COMPILE = $(CC) $(INC_DIRS) -c
 LINK = $(CC) $(LIB_DIRS) -o
 
 FILES = Edge.o GraphDriver.o
-all: GraphTraversal
+all: Graphs
 
 GraphTraversal: 		$(FILES)
-				$(LINK) GraphTraverse.exe $(FILES) $(LIBS)
+				$(LINK) Graphs.exe $(FILES) $(LIBS)
 
 Edge.o:			Edge.h Edge.cpp
 			$(COMPILE) Edge.cpp
