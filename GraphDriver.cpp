@@ -7,12 +7,14 @@
 #include "KeyObject.h"
 #include <CSC1310\src\String.cpp>
 using namespace std;
-int main()
+int main(int argc, char *argv[])
 {
     Graph<KeyObject> graph(4);
     string edges_file;
     string vertices_file;
-    edges_file="romanian_mileages.txt";
+    vertices_file=argv[1];
+    edges_file=argv[2];
+    std::ifstream vertices(vertices_file);
     std::ifstream edges(edges_file);
     char* vertex = new char[5000];
     char* begin_vertex = new char[5000];
@@ -26,8 +28,6 @@ int main()
         KeyObject* end_object = new KeyObject(_end_vertex);
         graph.addEdge(begin_object,end_object,edge_weight);
     }
-    vertices_file="romanian_cities.txt";
-    std::ifstream vertices(vertices_file);
     while(vertices>>vertex)
     {
         String* _vertex = new String(vertex);

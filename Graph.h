@@ -32,6 +32,7 @@ public:
     int getVertexIndex(T* vertexValue);
     //traverses the elements of the adjacency matrix as it appends adds values to list
     int traverseAdjacencyMatrix(int**& matrix,int root,ListLinked<T>*& _list,vector<int>& visitedVertices,int& counter);
+    //Traverses the elements in adjacency list
     int traverseAdjacencyList(vector<vector<T*>>& adjacencyLists,ListLinked<T>*& _list,vector<T*>& visitedNodes,vector<T*>& nodeStack);
 };
 #endif // GRAPH_H_INCLUDED
