@@ -11,8 +11,8 @@ LINK = $(CC) $(LIB_DIRS) -o
 FILES = Edge.o GraphDriver.o
 all: Graphs
 
-GraphTraversal: 		$(FILES)
-				$(LINK) Graphs.exe $(FILES) $(LIBS)
+Graphs: 		$(FILES)
+			$(LINK) Graphs.exe $(FILES) $(LIBS)
 
 Edge.o:			Edge.h Edge.cpp
 			$(COMPILE) Edge.cpp
